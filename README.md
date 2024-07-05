@@ -1,8 +1,13 @@
-# React + Vite
+# Blog Frontend Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Summary of this project
 
-Currently, two official plugins are available:
+This project is a  project that is built with reactjs ,swipper , expressjs, mongodb, mongoose, jwt, bcrypt, and many more. I am building a complete blog  website with all the features like login, signup, upload image.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project uses all standard practices like JWT, bcrypt, access tokens, refresh Tokens and many more.
+
+- [Link - Click To Visit ](https://main--magenta-cascaron-7d14cf.netlify.app/)
+
+
+## This will be implemented soon
+- the features such as : - like, dislike, comment, reply, subscribe, unsubscribe, and many more.
