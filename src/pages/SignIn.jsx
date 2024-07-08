@@ -68,7 +68,24 @@ function SignIn() {
   };
 
   //check login
-  const checkLogin = async () => {
+  // const checkLogin = async () => {
+  //   try {
+  //     const { data } = await axios.get(`${BACKEND_API_URL}/auth/checklogin`, {
+  //       withCredentials: true,
+  //     });
+  //     if (data.ok) {
+  //       window.location.href = "/";
+  //     }
+  //   } catch (error) {
+  //     if (error.response && error.response.status === 401) {
+  //       console.log("Not authorized");
+  //     } else {
+  //       console.error("An error occurred: ", error);
+  //     }
+  //   }
+  // };
+
+   const checkLogin = async () => {
     try {
       const { data } = await axios.get(`${BACKEND_API_URL}/auth/checklogin`, {
         withCredentials: true,
